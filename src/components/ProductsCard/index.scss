@@ -1,0 +1,14 @@
+@use '../../sass/variables' as *;
+
+
+.home__card{
+    display:grid;
+    padding: 20px;
+    align-items: center;
+
+    button{
+        background-color: $contrast-color;
+        width: 100px;
+        height: 50px;
+    }
+}
